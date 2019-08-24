@@ -8,8 +8,10 @@ function frameIt() {
 }
 
 function pressIt() {
-  if(key.which == G){
+  if(e.key == G){
       alert('G was pressed');
+  } else{
+    return;
   }
 }
 

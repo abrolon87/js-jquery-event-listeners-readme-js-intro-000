@@ -4,9 +4,7 @@ function getIt() {
 }
 
 function frameIt() {
-  if ($( "input:first").val() === "correct") {
-  alert("Your form is going to be submitted now.");
-  }
+  
 }
 
 function pressIt() {

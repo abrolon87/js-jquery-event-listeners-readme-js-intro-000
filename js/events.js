@@ -8,7 +8,9 @@ function frameIt() {
 }
 
 function pressIt() {
-  
+  if(key.which == G){
+      alert('G was pressed');
+  }
 }
 
 function submitIt() {
